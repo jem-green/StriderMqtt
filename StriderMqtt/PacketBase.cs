@@ -35,12 +35,6 @@ namespace StriderMqtt
     }
 
 
-	internal abstract class IdentifiedPacket : PacketBase
-	{
-		/// <summary>
-		/// Packet identifier
-		/// </summary>
-		internal ushort PacketId { get; set; }
-	}
+
 
 }
